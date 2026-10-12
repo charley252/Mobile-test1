@@ -1,0 +1,22 @@
+# JavaScript / Expo
+node_modules/
+.expo/
+dist/
+web-build/
+# Python
+.venv/
+__pycache__/
+*.pyc
+# Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.keystore
+# Local tools
+.DS_Store
+.vscode/settings.json
+# Local Supabase runtime
+supabase/.branches/
+supabase/.temp/
